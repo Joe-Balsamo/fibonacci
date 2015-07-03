@@ -1,4 +1,4 @@
-def fibs n
+def fibs(n)
   return 0 if n == 0
   num1 = 0
   num2 = 1
