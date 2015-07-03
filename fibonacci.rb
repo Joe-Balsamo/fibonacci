@@ -11,7 +11,7 @@ end
 p fibs(6)
 
 def fib_rec(n)
-  n <=1 ? n : fib_rec(n - 2) + fib_rec(n - 1)
+  n <=1 ? n : fib_rec(n - 1) + fib_rec(n - 2)
 end
 
 p fib_rec(6)
